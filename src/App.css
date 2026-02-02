@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.snake {
+  background-color: lime;
+}
 .board {
   width: 400px;
   height: 400px;
