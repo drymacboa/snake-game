@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.board {
+  width: 400px;
+  height: 400px;
+  background-color: #111;
+  margin: 20px auto;
+
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
